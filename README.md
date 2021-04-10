@@ -1,6 +1,6 @@
 ### Travel Guru - Best travel agency in Bangladesh
----
 ### This project deployed at : https://travelling-bd.netlify.app/
+---
 #### Travel Guru Overview:
 * Book your traveling place
 * Book a hotel
