@@ -35,7 +35,7 @@ const Login = () => {
             event.preventDefault()
     //Signup with email and password
                 if(submiter === "signup") {
-                    user.password==user.confirmationPassword ?
+                    user.password===user.confirmationPassword ?
                     firebase.auth().createUserWithEmailAndPassword(user.email,user.password)
                     .then(res=>{
                         setConfirmationError(false)
@@ -59,7 +59,7 @@ const Login = () => {
     // Sign in with email and password
             
     
-            if(submiter == "signin"){
+            if(submiter === "signin"){
                 setVerifyMessage(false)
                 setUser({...user, signinError:""})
                         firebase.auth().signInWithEmailAndPassword(user.email,user.password)
