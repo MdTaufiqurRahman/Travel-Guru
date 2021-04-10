@@ -1,0 +1,16 @@
+.input-style{
+    outline:none;
+    
+    border-radius:5px;
+    padding-left:15px;
+}
+.input-style:focus{
+    border-radius:5px;
+    border:1px solid orange;
+}
+.header-right p{
+    margin-right:8px;
+    font-Size:13px;
+    font-weight:bold;
+    cursor:pointer
+}

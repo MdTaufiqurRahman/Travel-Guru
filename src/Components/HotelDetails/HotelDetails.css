@@ -1,0 +1,20 @@
+.hotel-features span{
+    font-weight:500;
+    color:rgb(68, 68, 68);
+    font-size:13px;
+    margin-right:5px;
+
+}
+.hotel-text-container p{
+    color:rgb(68, 68, 68);
+    font-size:14px;
+}
+.hotel-review span{
+    font-weight:500;
+    font-size:13px;
+    margin-right:10px;
+
+}
+.custom-color{
+    color:rgba(92, 91, 91, 0.63);
+}

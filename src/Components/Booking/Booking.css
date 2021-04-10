@@ -1,0 +1,47 @@
+.booking-form{
+    background:white;
+    color:black;
+    text-align:left;
+    border-radius:10px;
+
+
+}
+
+.form-group input{
+    margin-bottom:10px;
+    border-radius:5px;
+    border:1px solid lightgray;
+    outline:none;
+    height:30px;
+    
+    
+}
+.form-group input:focus{
+    border:1px solid orange;
+}
+.form-group input[type="submit"]{
+    background:orange;
+    font-weight:bold;
+    color:rgb(37, 37, 37);
+    margin-top:10px
+}
+.form-group label{
+    margin-bottom:5px;
+    color:grey;
+    font-weight:500;
+    font-size:13px;
+}
+.datepicker-section p{
+    margin-bottom:5px;
+    color:grey;
+    font-weight:500;
+    font-size:13px;
+}
+.date-picker {
+    background-image: linear-gradient(rgba(95, 91, 91, 0.137),rgba(230, 240, 230, 0.726)) ,url('https://i.ibb.co/7nZtR7G/calender.png');
+    background-size:20px;
+    background-position:140px 5px;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    cursor:pointer;
+}

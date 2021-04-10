@@ -1,0 +1,22 @@
+.auth-form-group{
+    min-width: 200px;
+    width:400px;
+    margin:auto;
+    margin-top:50px;
+    border:1px solid lightgray;
+    padding:10px 30px;
+    border-radius:10px;
+    text-align:center;
+}
+.auth-provider-section{
+display:flex;
+align-items:center; 
+border:1px solid lightgray;
+border-radius:30px;
+padding:2px 20px;
+ margin:0 0 5px 0;
+height:35px;
+}
+.auth-form-group input{
+    padding-left:20px
+}
